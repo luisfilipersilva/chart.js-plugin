@@ -1,3 +1,4 @@
+<?php
 //$operadora -> array with the data of he class 'operadora'
 //$ths->_terminal > class 'terminal' variable
 
@@ -19,3 +20,4 @@ foreach ($operadoras as $this->_terminal) {
 			$val.="label:'".$this->_terminal->getOperadora()."',";
 			$val.="color:'#".$cor."'},";
 		}
+?>
